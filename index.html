@@ -5,59 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <div class="header">
-      <h1>Header Logo</h1>
+      <h1 class="logo">Header Logo</h1>
       <ul class="navigation">
         <li><a href="#">header link one</a></li>
         <li><a href="#">header link two</a></li>
-        <li><a href="#">header link three<a></li>
+        <li><a href="#">header link three</a></li>
       </ul>
-      <div class="hero">
-        <div class="container">
-          <div class="hero_text">This website is awesome</div>
-          <div class="hero_undertext">This website has some subtext under the main title. It's a small font and the color is lower contrast</div>
-          <button class="hero_button">Sign up</button>
-        </div>
-        <img src="#.jpg" alt="this is a placeholder for an image" width = "400">
+    </div>
+    <div class="hero_container">
+      <div class="hero_content">
+        <div class="hero_text">This website is awesome</div>
+        <div class="hero_undertext">This website has some subtext under the main title. It's a small font and the color is lower contrast</div>
+        <button class="hero_button">Sign up</button>
       </div>
-      <div class="information">
-        <div class="information_header">Some random information.</div>
-        <div class="illustration_container">
-          <img class="illustration" src="#.jpg" alt="illustration" width = "100">
-          <p>this is some subtext under an illustration or image</p>
-          <img class="illustration" src="#.jpg" alt="illustration" width = "100">
-          <p>this is some subtext under an illustration or image</p>
-          <img class="illustration" src="#.jpg" alt="illustration" width = "100">
-          <p>this is some subtext under an illustration or image</p>
-          <img class="illustration" src="#.jpg" alt="illustration" width = "100">
-          <p>this is some subtext under an illustration or image</p>
+      <div class="hero_img"><p>this is a placeholder for an image</p></div>
+    </div>
+    <div class="information_container">
+      <div class="information_header">Some random information.</div>
+      <div class="illustration_container">
+        <div class="illustration_content_container">
+          <div class="illustration"></div>
+          <p class="illustration_text">this is some subtext under an illustration or image</p>
         </div>
-      </div>
-      <div class="quote_container">
-        <div class="quote_text">
-          This is an inspiring quote, or a testimonial from a customer. 
-          Maybe it's just filling up space, or maybe people will actually read it.
-          Who knows? All I know is that is looks nice.
+        <div class="illustration_content_container">
+          <div class="illustration"></div>
+          <p class="illustration_text">this is some subtext under an illustration or image</p>
         </div>
-        <div class="quote_signature">
-          -Thor, God of Thunder
+        <div class="illustration_content_container">
+          <div class="illustration"></div>
+          <p class="illustration_text">this is some subtext under an illustration or image</p>
+        </div>
+        <div class="illustration_content_container">
+          <div class="illustration"></div>
+          <p class="illustration_text">this is some subtext under an illustration or image</p>
         </div>
       </div>
-      <div class="signup_container">
-        <div class="signup_text">
-          Call to action! It's time!
-        </div>
-        <div class="signup_undertext">
-          Sign up for our product by clicking that button right over there!
+    </div>
+    <div class="quote_container">
+      <div class="quote_text">
+        This is an inspiring quote, or a testimonial from a customer. 
+        Maybe it's just filling up space, or maybe people will actually read it.
+        Who knows? All I know is that is looks nice.
+      </div>
+      <div class="quote_signature">
+        -Thor, God of Thunder
+      </div>
+    </div>
+    <div class="signup_container">
+      <div class="signup_box">
+        <div class="signup_content">
+          <div class="signup_text">
+            Call to action! It's time!
+          </div>
+          <div class="signup_undertext">
+            Sign up for our product by clicking that button right over there!
+          </div>
         </div>
         <button class="signup_button">
           Sign up
         </button>
       </div>
-      <div class="footer">
-        Copyright &copy; The Odin Project 2021
+    </div>
+    <div class="footer">
+      Copyright &copy; The Odin Project 2021
+    </div>
   </body>
 </html>
