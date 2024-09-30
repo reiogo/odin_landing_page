@@ -1,7 +1,5 @@
-# odin-landing-page
+# Designing Landing Page
 
-Project: Landing Page; A css project for The Odin Project
+A template landing page.
 
-Working on creating a website from scratch. The basis of the project is in the two png images in the file.
-
-project source: https://www.theodinproject.com/lessons/foundations-landing-page
+Live Demo: https://reiogo.github.io/odin_landing_page/
